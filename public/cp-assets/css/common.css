@@ -1,0 +1,99 @@
+
+.loginPage {
+    z-index: 999999;
+}
+
+.loginPage {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -350px;
+    z-index: 9090;
+    overflow: hidden;
+}
+
+.loginPage .wrapper {
+    margin: .5% auto auto;
+    width: 700px;
+    display: flex;
+    display: -webkit-flex;
+    overflow: hidden;
+    border-radius: 2px;
+    position: fixed;
+    z-index: 102;
+    box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+}
+
+.loginPage .leftCol {
+    width: 45%;
+    background: url(./images/login.jpg) no-repeat 0 0 / 100% 100%;
+    position: relative;
+    padding-bottom: 120px;
+    padding-top: 2em;
+}
+
+.loginPage .leftCol .tabs-stage {
+    clear: both;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    top: -1px;
+    width: 281px;
+}
+
+.loginPage .leftCol .tabs-stage .tb.current {
+    visibility: visible;
+    opacity: 1;
+}
+
+.loginPage .leftCol .tabs-stage .tb {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity .5s linear;
+}
+
+.loginPage .leftCol .tabs-stage h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 32px;
+    line-height: 42px;
+    text-shadow: 1px 1px 6px #616161;
+    padding-right: 1em;
+}
+
+.loginPage .leftCol .tabs-stage p {
+    margin: 0;
+}
+
+.loginPage .rightCol {
+    padding: 5px 30px;
+}
+
+.loginPage .rightCol {
+    width: 65%;
+    padding: 10px 30px;
+    background: #fff;
+    position: relative;
+    z-index: -2;
+}
+
+.loginPage .close {
+    position: static;
+    display: block;
+    float: right;
+    width: 34px;
+    height: 34px;
+    margin: -10px -30px 0 0;
+    opacity: 1;
+    line-height: 12px;
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    border: 0;
+    background: 0;
+}
+
+.loginPage .rightCol .sign-Content.signIn {
+    padding-top: 30px;
+}
